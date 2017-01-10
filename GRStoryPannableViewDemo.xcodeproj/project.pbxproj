@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FFC5ECE37202C24E6F4A5A6 /* libPods-GRStoryPannableViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA6E44FCDBDABFDED02071A /* libPods-GRStoryPannableViewDemo.a */; };
+		50663B8A1E24753F0081FF77 /* GRStoryPanableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50663B891E24753F0081FF77 /* GRStoryPanableView.m */; };
+		50663B8C1E247B490081FF77 /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50663B8B1E247B490081FF77 /* images.xcassets */; };
+		50D27CCE1E239D9B00211B1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D27CCD1E239D9B00211B1F /* main.m */; };
+		50D27CD11E239D9B00211B1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D27CD01E239D9B00211B1F /* AppDelegate.m */; };
+		50D27CD41E239D9B00211B1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D27CD31E239D9B00211B1F /* ViewController.m */; };
+		50D27CD71E239D9B00211B1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50D27CD51E239D9B00211B1F /* Main.storyboard */; };
+		50D27CD91E239D9B00211B1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50D27CD81E239D9B00211B1F /* Assets.xcassets */; };
+		50D27CDC1E239D9B00211B1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50D27CDA1E239D9B00211B1F /* LaunchScreen.storyboard */; };
+		50D27CF51E23AFF800211B1F /* GRPanableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D27CF01E23AFF800211B1F /* GRPanableView.m */; };
+		50D27CF61E23AFF800211B1F /* GRPanableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50D27CF11E23AFF800211B1F /* GRPanableView.xib */; };
+		50D27CF71E23AFF800211B1F /* GRStoryViewCountView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D27CF31E23AFF800211B1F /* GRStoryViewCountView.m */; };
+		50D27CF81E23AFF800211B1F /* GRStoryViewCountView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50D27CF41E23AFF800211B1F /* GRStoryViewCountView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0BD4A49D0F151CD4F05C95FF /* Pods-GRStoryPannableViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRStoryPannableViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GRStoryPannableViewDemo/Pods-GRStoryPannableViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		50663B881E24753F0081FF77 /* GRStoryPanableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRStoryPanableView.h; sourceTree = "<group>"; };
+		50663B891E24753F0081FF77 /* GRStoryPanableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRStoryPanableView.m; sourceTree = "<group>"; };
+		50663B8B1E247B490081FF77 /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
+		50D27CC91E239D9B00211B1F /* GRStoryPannableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GRStoryPannableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50D27CCD1E239D9B00211B1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50D27CCF1E239D9B00211B1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		50D27CD01E239D9B00211B1F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		50D27CD21E239D9B00211B1F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		50D27CD31E239D9B00211B1F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		50D27CD61E239D9B00211B1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50D27CD81E239D9B00211B1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50D27CDB1E239D9B00211B1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50D27CDD1E239D9B00211B1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50D27CEF1E23AFF800211B1F /* GRPanableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRPanableView.h; sourceTree = "<group>"; };
+		50D27CF01E23AFF800211B1F /* GRPanableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRPanableView.m; sourceTree = "<group>"; };
+		50D27CF11E23AFF800211B1F /* GRPanableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GRPanableView.xib; sourceTree = "<group>"; };
+		50D27CF21E23AFF800211B1F /* GRStoryViewCountView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRStoryViewCountView.h; sourceTree = "<group>"; };
+		50D27CF31E23AFF800211B1F /* GRStoryViewCountView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRStoryViewCountView.m; sourceTree = "<group>"; };
+		50D27CF41E23AFF800211B1F /* GRStoryViewCountView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GRStoryViewCountView.xib; sourceTree = "<group>"; };
+		7EA6E44FCDBDABFDED02071A /* libPods-GRStoryPannableViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GRStoryPannableViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83F6F138B72DAA72CD0C47E1 /* Pods-GRStoryPannableViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRStoryPannableViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GRStoryPannableViewDemo/Pods-GRStoryPannableViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50D27CC61E239D9B00211B1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FFC5ECE37202C24E6F4A5A6 /* libPods-GRStoryPannableViewDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EBF9B66F577B3A5F8ED12D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0BD4A49D0F151CD4F05C95FF /* Pods-GRStoryPannableViewDemo.debug.xcconfig */,
+				83F6F138B72DAA72CD0C47E1 /* Pods-GRStoryPannableViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		50D27CC01E239D9B00211B1F = {
+			isa = PBXGroup;
+			children = (
+				50D27CCB1E239D9B00211B1F /* GRStoryPannableViewDemo */,
+				50D27CCA1E239D9B00211B1F /* Products */,
+				3EBF9B66F577B3A5F8ED12D3 /* Pods */,
+				66C67921CEE7B07B3EAEEAF2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		50D27CCA1E239D9B00211B1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50D27CC91E239D9B00211B1F /* GRStoryPannableViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50D27CCB1E239D9B00211B1F /* GRStoryPannableViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				50D27CEE1E23AFF800211B1F /* GRPanableView */,
+				50D27CCF1E239D9B00211B1F /* AppDelegate.h */,
+				50D27CD01E239D9B00211B1F /* AppDelegate.m */,
+				50D27CD21E239D9B00211B1F /* ViewController.h */,
+				50D27CD31E239D9B00211B1F /* ViewController.m */,
+				50D27CD51E239D9B00211B1F /* Main.storyboard */,
+				50D27CD81E239D9B00211B1F /* Assets.xcassets */,
+				50D27CDA1E239D9B00211B1F /* LaunchScreen.storyboard */,
+				50D27CDD1E239D9B00211B1F /* Info.plist */,
+				50D27CCC1E239D9B00211B1F /* Supporting Files */,
+				50663B8B1E247B490081FF77 /* images.xcassets */,
+			);
+			path = GRStoryPannableViewDemo;
+			sourceTree = "<group>";
+		};
+		50D27CCC1E239D9B00211B1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50D27CCD1E239D9B00211B1F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50D27CEE1E23AFF800211B1F /* GRPanableView */ = {
+			isa = PBXGroup;
+			children = (
+				50D27CEF1E23AFF800211B1F /* GRPanableView.h */,
+				50D27CF01E23AFF800211B1F /* GRPanableView.m */,
+				50D27CF11E23AFF800211B1F /* GRPanableView.xib */,
+				50D27CF21E23AFF800211B1F /* GRStoryViewCountView.h */,
+				50D27CF31E23AFF800211B1F /* GRStoryViewCountView.m */,
+				50D27CF41E23AFF800211B1F /* GRStoryViewCountView.xib */,
+				50663B881E24753F0081FF77 /* GRStoryPanableView.h */,
+				50663B891E24753F0081FF77 /* GRStoryPanableView.m */,
+			);
+			path = GRPanableView;
+			sourceTree = "<group>";
+		};
+		66C67921CEE7B07B3EAEEAF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7EA6E44FCDBDABFDED02071A /* libPods-GRStoryPannableViewDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50D27CC81E239D9B00211B1F /* GRStoryPannableViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50D27CE01E239D9B00211B1F /* Build configuration list for PBXNativeTarget "GRStoryPannableViewDemo" */;
+			buildPhases = (
+				971A607865B28EBBA31BBEBE /* [CP] Check Pods Manifest.lock */,
+				50D27CC51E239D9B00211B1F /* Sources */,
+				50D27CC61E239D9B00211B1F /* Frameworks */,
+				50D27CC71E239D9B00211B1F /* Resources */,
+				5079944912142016661C6F2C /* [CP] Embed Pods Frameworks */,
+				A13C5F4463F66D9FCCA1ED81 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GRStoryPannableViewDemo;
+			productName = GRStoryPannableViewDemo;
+			productReference = 50D27CC91E239D9B00211B1F /* GRStoryPannableViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50D27CC11E239D9B00211B1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = liangzhimy;
+				TargetAttributes = {
+					50D27CC81E239D9B00211B1F = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 50D27CC41E239D9B00211B1F /* Build configuration list for PBXProject "GRStoryPannableViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50D27CC01E239D9B00211B1F;
+			productRefGroup = 50D27CCA1E239D9B00211B1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50D27CC81E239D9B00211B1F /* GRStoryPannableViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50D27CC71E239D9B00211B1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50D27CDC1E239D9B00211B1F /* LaunchScreen.storyboard in Resources */,
+				50D27CF61E23AFF800211B1F /* GRPanableView.xib in Resources */,
+				50D27CD91E239D9B00211B1F /* Assets.xcassets in Resources */,
+				50663B8C1E247B490081FF77 /* images.xcassets in Resources */,
+				50D27CD71E239D9B00211B1F /* Main.storyboard in Resources */,
+				50D27CF81E23AFF800211B1F /* GRStoryViewCountView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5079944912142016661C6F2C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GRStoryPannableViewDemo/Pods-GRStoryPannableViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		971A607865B28EBBA31BBEBE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A13C5F4463F66D9FCCA1ED81 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GRStoryPannableViewDemo/Pods-GRStoryPannableViewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50D27CC51E239D9B00211B1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50D27CD41E239D9B00211B1F /* ViewController.m in Sources */,
+				50D27CF51E23AFF800211B1F /* GRPanableView.m in Sources */,
+				50D27CD11E239D9B00211B1F /* AppDelegate.m in Sources */,
+				50D27CF71E23AFF800211B1F /* GRStoryViewCountView.m in Sources */,
+				50D27CCE1E239D9B00211B1F /* main.m in Sources */,
+				50663B8A1E24753F0081FF77 /* GRStoryPanableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		50D27CD51E239D9B00211B1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50D27CD61E239D9B00211B1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50D27CDA1E239D9B00211B1F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50D27CDB1E239D9B00211B1F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50D27CDE1E239D9B00211B1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		50D27CDF1E239D9B00211B1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50D27CE11E239D9B00211B1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BD4A49D0F151CD4F05C95FF /* Pods-GRStoryPannableViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GRStoryPannableViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zl.GRStoryPannableViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		50D27CE21E239D9B00211B1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83F6F138B72DAA72CD0C47E1 /* Pods-GRStoryPannableViewDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GRStoryPannableViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zl.GRStoryPannableViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50D27CC41E239D9B00211B1F /* Build configuration list for PBXProject "GRStoryPannableViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50D27CDE1E239D9B00211B1F /* Debug */,
+				50D27CDF1E239D9B00211B1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50D27CE01E239D9B00211B1F /* Build configuration list for PBXNativeTarget "GRStoryPannableViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50D27CE11E239D9B00211B1F /* Debug */,
+				50D27CE21E239D9B00211B1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50D27CC11E239D9B00211B1F /* Project object */;
+}
